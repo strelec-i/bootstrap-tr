@@ -1,7 +1,14 @@
-.navbar-brand{
-    & span{
+.navbar-brand {
+    & span {
         display: inline-block;
         text-transform: uppercase;
         margin: 0 20px 0 10px;
     }
+}
+
+.intro {
+    background: url("../img/bg.jpg") center no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
 }
