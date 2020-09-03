@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.navbar-brand span {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 20px 0 10px;
+}
+/*# sourceMappingURL=style.css.map */
