@@ -34,10 +34,38 @@ body {
   color: #fff;
 }
 
+.footer .nav-link {
+  padding: 0.5rem 0;
+}
+
 .copyright {
   background-color: #16181b;
   color: #adb5bd;
   text-align: center;
   padding: 1rem;
+}
+
+@media (max-width: 1199px) {
+  .display-2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .display-2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .display-2 {
+    font-size: 2rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .intro {
+    height: 300px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
